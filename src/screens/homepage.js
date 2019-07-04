@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic from './files/cover.jpg';
+import pic from '../files/cover.jpg';
 
 const Styles = {
       backgroundColor: '#5F86A9',

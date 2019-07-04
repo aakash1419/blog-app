@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter,Switch, Route, Link} from 'react-router-dom';
-import HomePage from './homepage';
+import HomePage from './screens/homepage';
+import BlogListComponent from './screens/bloglist/index';
 
 
 const STYLES = {
@@ -21,6 +22,7 @@ class Header extends React.Component {
 									<div>
 											<Switch>
 													<Route path='/' exact component={HomePage}></Route>
+													<Route path='/blogs' exact component={BlogListComponent}></Route>
 											</Switch>
 									</div>
 							</div>
