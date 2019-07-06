@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux';
-import {BlogList} from '../screens/blog-list/reducers';
+import {BlogList} from '../screens/bloglist/reducer';
 
 export default combineReducers({
     BlogList
